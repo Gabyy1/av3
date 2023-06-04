@@ -5,7 +5,7 @@
 <html>
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
-<title>RELATÓRIO NOTA</title>
+<title>RELATÓRIO NOTAS</title>
 </head>
 <body>
 	<div>
@@ -13,59 +13,19 @@
 	</div>
 	<br />
 	
-	<div id="centro" align="center">
-			<h1 class=texto>Relatorio Notas</h1>
-				<table class="table table-striped table-hover">
-			<thead>
+	<div align="center">
+		<form action="relatorio" method="post" target="_blank">
+			<table>
 				<tr>
-					<th scope="col">Codigo</th>
-					<th scope="col">Disciplina</th>
-					<th scope="col">Turno</th>
-				</tr>
-			</thead>
-			<tbody>
-				<tr>
-					<th scope="row">4203-010</th>
-					<td>Arquitetura e Organização de Computadores </td>
-					<td>Tarde</td>
+					<td><input type="text" name="relatorio" placeholder="RelatorioNotas">
+					</td>
 				</tr>
 				<tr>
-					<th scope="row">4203-020</th>
-					<td>Arquitetura e Organização de Computadores </td>
-					<td>Noite</td>
+					<td><input type="submit" value="Gerar">
+					</td>
 				</tr>
-					<tr>
-					<th scope="row">4208-010</th>
-					<td>Laboratório de Hardware</td>
-					<td>Tarde</td>
-				</tr>
-					<tr>
-					<th scope="row">4226-004</th>
-					<td>Banco de Dados </td>
-					<td>Tarde</td>
-				</tr>
-					<tr>
-					<th scope="row">4213-003</th>
-					<td>Sistemas Operacionais I </td>
-					<td>Tarde</td>
-				</tr>
-					<tr>
-					<th scope="row">4213-013</th>
-					<td>Sistemas Operacionais I </td>
-					<td>Noite</td>
-				</tr>
-					<tr>
-					<th scope="row">4233-005</th>
-					<td>Arquitetura e Organização de Computadores </td>
-					<td>Tarde</td>
-				</tr>
-					<tr>
-					<th scope="row">5005-220</th>
-					<td>Métodos Para a Produção do Conhecimento </td>
-					<td>Tarde</td>
-				</tr>
-			</tbody>
-		</table>
+			</table>
+		</form>
 	
 	</div>
 </body>

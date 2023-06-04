@@ -14,8 +14,8 @@
 				<li><a href = "aluno">Alunos</a></li>
 				<li><a href="nota">Notas</a><li>
 				<li><a href="falta">Faltas</a></li>
-				<li><a href = "relatorioNota">Relatorio de Faltas</a></li>
-				<li><a href = "relatorioFalta">Relatorio de Notas</a></li>
+				<li><a href = "relatorioNota">Relatorio de Notas</a></li>
+				<li><a href = "relatorioFalta">Relatorio de Faltas</a></li>
 			</ul>	
 		</nav>
 	</div>
