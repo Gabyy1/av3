@@ -4,14 +4,13 @@
 <html>
 <head>
 <meta charset="ISO-8859-1">
-<title></title>
+<title>MENU</title>
 </head>
 <body>
 	<div align="center">
 		<nav id=menu>
 			<ul>
 				<li><a href = "index">Início</a></li>
-				<li><a href = "aluno">Alunos</a></li>
 				<li><a href="nota">Notas</a><li>
 				<li><a href="falta">Faltas</a></li>
 				<li><a href = "relatorioNota">Relatorio de Notas</a></li>

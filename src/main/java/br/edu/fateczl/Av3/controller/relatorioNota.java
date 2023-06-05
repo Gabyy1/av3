@@ -34,7 +34,7 @@ public class relatorioNota {
 	GenericDao gDao;
 	
 	@SuppressWarnings({ "rawtypes", "unchecked" })
-	@RequestMapping(name = "relatorio", value = "/relatorio", method = RequestMethod.POST)
+	@RequestMapping(name = "relatorioNota", value = "/relatorioNota", method = RequestMethod.POST)
 	public ResponseEntity gerarRelatorio(@RequestParam Map<String, String> allRequestParams) {
 		String erro= "";
 		String relatorioNotas = allRequestParams.get("relatorioNotas");
