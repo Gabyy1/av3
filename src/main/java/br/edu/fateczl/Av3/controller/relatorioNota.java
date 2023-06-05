@@ -37,10 +37,10 @@ public class relatorioNota {
 	@RequestMapping(name = "relatorioNota", value = "/relatorioNota", method = RequestMethod.POST)
 	public ResponseEntity gerarRelatorio(@RequestParam Map<String, String> allRequestParams) {
 		String erro= "";
-		String relatorioNotas = allRequestParams.get("relatorioNotas");
+		String relatorioNota = allRequestParams.get("relatorioNota");
 		
 		Map<String, Object> param = new HashMap<String, Object>();
-		param.put("relatorioNotas", relatorioNotas);
+		param.put("relatorioNota", relatorioNota);
 		
 		byte[] bytes = null;
 		

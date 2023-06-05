@@ -49,7 +49,7 @@ public class FaltaDao
 		return Lista;
 	}
 	
-	public int qntAulas(String materia)throws SQLException, ClassNotFoundException
+	public int qntAulas(String disciplina)throws SQLException, ClassNotFoundException
 	{
 		GenericDao gDao = new GenericDao();
 		c = gDao.getConnection();
@@ -57,7 +57,7 @@ public class FaltaDao
 		
 		String selectStatement = "select num_aula from disciplina where codigo=(?)";
 		PreparedStatement prepStmt = c.prepareStatement(selectStatement);
-		prepStmt.setString(1, materia);
+		prepStmt.setString(1, disciplina);
 	    ResultSet rs = prepStmt.executeQuery();
 	    
 	    while (rs.next())

@@ -5,6 +5,7 @@
 <html>
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
+<link rel="stylesheet" type="text/css" href='<c:url value="./resources/css/styles.css"/>'>
 <title>SIGA</title>
 </head>
 <body>
@@ -12,6 +13,5 @@
 		<jsp:include page="menu.jsp" />
 	</div>
 	<br />
-
 </body>
 </html>

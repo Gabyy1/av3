@@ -20,13 +20,13 @@ import br.edu.fateczl.Av3.persistence.FaltaDao;
 @Controller
 public class MostrarFalta 
 {
-	@RequestMapping(name = "mostrarFalta", value = "/mostrarFalta", method = RequestMethod.GET)
+	@RequestMapping(name = "reltorioFalta", value = "/relatorioFalta", method = RequestMethod.GET)
 	public ModelAndView init(ModelMap model) 
 	{
 		return new ModelAndView("mostraFalta");
 	}
 
-	@RequestMapping(name = "mostraFalta", value = "/mostraFalta", method = RequestMethod.POST)
+	@RequestMapping(name = "relatorioFalta", value = "/relatorioFalta", method = RequestMethod.POST)
 	protected void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException 
 	{
 	
